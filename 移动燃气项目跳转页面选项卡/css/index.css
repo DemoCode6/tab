@@ -1,0 +1,100 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;color: #fff;}
+li{list-style: none;}
+.swiper-wrapper img{
+    width: 100%;
+    height: 3.5rem;
+}
+.tbody{
+    width: 6.9rem;
+    margin: auto;
+    font-size: .26rem;
+    letter-spacing: 0.02rem;
+}
+.sort{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.3rem 0.6rem
+}
+.sort li{
+    height: 1.02rem;
+    line-height: 1.02rem;
+    background: #31d0ff;
+    border-radius: .15rem;
+    text-align: center;
+    box-shadow:.05rem .05rem .1rem #0497c4; 
+}
+.business_title{
+    font-size: .36rem;
+    font-weight: bold;
+    margin: .56rem 0 .3rem;
+}
+.business_img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.3rem 0.32rem;
+    margin-bottom: .3rem;
+}
+.business_img li{
+    border-radius: .25rem;
+    box-shadow:.05rem .05rem .1rem #999;
+    position: relative;
+}
+.business_img li img{
+    width: 3.3rem;
+    height: 2.6rem;
+    border-radius: .25rem;
+    display: block;
+}
+.business_img li p{
+    width: 100%;
+    height: .48rem;
+    line-height: .48rem;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    position: absolute;
+    bottom: 0;
+}
+/* 选项卡 */
+.container {
+    /*width: 100%;*/
+    border: 1px solid #ccc;
+}
+.swiper1 {
+    width: 100%;
+}
+.swiper1 .selected {
+    color: #31d0ff;
+    border-bottom: 2px solid #31d0ff;
+}
+.swiper1 .swiper-slide {
+    text-align: center;
+    font-size: 16px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+}
+.swiper2 {
+    width: 100%;
+}
+.swiper2 .swiper-slide {
+    height: calc(100vh - 50px);
+    background-color: #ccc;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+}
